@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.Quadrado1 {
+    height: 650px;
+    width: 450px;
+    position: absolute;
+    top: -10px;
+    left: 900px;
+    background-color: rgb(0, 139, 28);
+}
+
+
+
+img {
+    width: 290px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    left: 750px;
+    z-index: 1;
+}
+
+.titulo1 {
+    color: #256702cb;
+    z-index: 1;
+    font-size: 62px;
+    position: relative;
+    top: -200px;
+    left: 150px;
+    font-family: 'Franklin Gothic Medium';
+
+}
+.menu1 {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    position: absolute;
+    top: 310px;
+    left: 60px;
+    color: rgb(55, 105, 6);
+    width: 100px; /* Defina um valor apropriado para a largura */
+    height: 40px; /* Defina um valor apropriado para a altura */
+    transition: transform 0.1s;
+  
+}
+
+.menu1:hover {
+    transform: scale(1.1);
+}
+
+
+.menu2{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    position: absolute;
+    top: 195px;
+    left:60px;
+    
+    width: 100px; /* Defina um valor apropriado para a largura */
+    height: 50px; /* Defina um valor apropriado para a altura */
+    transition: transform 0.1s;
+
+}
+
+.menu2:hover {
+    transform: scale(1.1);
+}
+
+.menu3{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    position: absolute;
+    top: 235px;
+    left: 60px;
+    color: rgb(55, 105, 6);
+    width: 100px; /* Defina um valor apropriado para a largura */
+    height: 40px; /* Defina um valor apropriado para a altura */
+    transition: transform 0.1s;
+    text-decoration: none;
+}
+
+.menu3:hover {
+    transform: scale(1.1);
+}
+
+.menu4{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    position: absolute;
+    top: 275px;
+    left: 60px;
+    color: rgb(55, 105, 6);
+    width: 100px; /* Defina um valor apropriado para a largura */
+    height: 40px; /* Defina um valor apropriado para a altura */
+    transition: transform 0.1s;
+    text-decoration: none;
+}
+.menu4:hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none; 
+    color: rgb(55, 105, 6);
+}
+
+    

@@ -1,0 +1,75 @@
+body {
+    background-image: url('fundohome.png');
+    background-size: cover; /* Isso ajustará o tamanho da imagem de fundo para cobrir todo o corpo */
+}
+
+.menu-lateral {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 650px;
+    width: 20%;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.logoescrito {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20px;
+    left: 100px;
+    position: absolute;
+
+.logoescrito::before,
+.logoescrito::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff; /* Cor da linha */
+    position: absolute;
+}
+
+.logoescrito::before {
+    top: 25px; 
+}
+
+.logoescrito::after {
+    bottom: 25px; 
+}
+.menu-opções {
+    font-size: 12px;
+    list-style: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 250px;
+    left: 70px;
+    position: absolute;
+}
+.menu-opções {
+    
+    padding: 0;
+    margin: 0;
+}
+
+.menu-opções li {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-opções li:hover {
+    background-color: #2600ff; 
+    color: white; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home {
+    font-size: 12px;
+    list-style: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 250px;
+    left: 70px;
+
+}
